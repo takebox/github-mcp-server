@@ -25,8 +25,7 @@ var (
 	token        string
 
 	buildOnce  sync.Once
-	buildError error
-)
+	buildError error )
 
 // getE2EToken ensures the environment variable is checked only once and returns the token
 func getE2EToken(t *testing.T) string {

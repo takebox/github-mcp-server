@@ -9,9 +9,9 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/github/github-mcp-server/pkg/github"
-	iolog "github.com/github/github-mcp-server/pkg/log"
-	"github.com/github/github-mcp-server/pkg/translations"
+	"github.com/takebox/github-mcp-server/pkg/github"
+	iolog "github.com/takebox/github-mcp-server/pkg/log"
+	"github.com/takebox/github-mcp-server/pkg/translations"
 	gogithub "github.com/google/go-github/v69/github"
 	"github.com/mark3labs/mcp-go/mcp"
 	"github.com/mark3labs/mcp-go/server"

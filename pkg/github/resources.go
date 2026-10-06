@@ -1,7 +1,7 @@
 package github
 
 import (
-	"github.com/github/github-mcp-server/pkg/translations"
+	"github.com/takebox/github-mcp-server/pkg/translations"
 	"github.com/mark3labs/mcp-go/server"
 )
 

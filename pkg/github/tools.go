@@ -3,8 +3,8 @@ package github
 import (
 	"context"
 
-	"github.com/github/github-mcp-server/pkg/toolsets"
-	"github.com/github/github-mcp-server/pkg/translations"
+	"github.com/takebox/github-mcp-server/pkg/toolsets"
+	"github.com/takebox/github-mcp-server/pkg/translations"
 	"github.com/google/go-github/v69/github"
 	"github.com/mark3labs/mcp-go/server"
 )

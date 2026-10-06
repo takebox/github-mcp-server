@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/github/github-mcp-server/pkg/translations"
+	"github.com/takebox/github-mcp-server/pkg/translations"
 	"github.com/google/go-github/v69/github"
 	"github.com/mark3labs/mcp-go/mcp"
 	"github.com/migueleliasweb/go-github-mock/src/mock"
@@ -1220,8 +1220,7 @@ func Test_PushFiles(t *testing.T) {
 		{
 			name:         "fails when files parameter is invalid",
 			mockedClient: mock.NewMockedHTTPClient(
-			// No requests expected
-			),
+			// No requests expected ),
 			requestArgs: map[string]interface{}{
 				"owner":   "owner",
 				"repo":    "repo",

@@ -8,7 +8,7 @@ Some packages may only be included on certain architectures or operating systems
 
 
  - [github.com/fsnotify/fsnotify](https://pkg.go.dev/github.com/fsnotify/fsnotify) ([BSD-3-Clause](https://github.com/fsnotify/fsnotify/blob/v1.8.0/LICENSE))
- - [github.com/github/github-mcp-server](https://pkg.go.dev/github.com/github/github-mcp-server) ([MIT](https://github.com/github/github-mcp-server/blob/HEAD/LICENSE))
+ - [github.com/takebox/github-mcp-server](https://pkg.go.dev/github.com/takebox/github-mcp-server) ([MIT](https://github.com/takebox/github-mcp-server/blob/HEAD/LICENSE))
  - [github.com/go-viper/mapstructure/v2](https://pkg.go.dev/github.com/go-viper/mapstructure/v2) ([MIT](https://github.com/go-viper/mapstructure/blob/v2.2.1/LICENSE))
  - [github.com/google/go-github/v69/github](https://pkg.go.dev/github.com/google/go-github/v69/github) ([BSD-3-Clause](https://github.com/google/go-github/blob/v69.2.0/LICENSE))
  - [github.com/google/go-querystring/query](https://pkg.go.dev/github.com/google/go-querystring/query) ([BSD-3-Clause](https://github.com/google/go-querystring/blob/v1.1.0/LICENSE))
@@ -30,4 +30,4 @@ Some packages may only be included on certain architectures or operating systems
  - [golang.org/x/text](https://pkg.go.dev/golang.org/x/text) ([BSD-3-Clause](https://cs.opensource.google/go/x/text/+/v0.23.0:LICENSE))
  - [gopkg.in/yaml.v3](https://pkg.go.dev/gopkg.in/yaml.v3) ([MIT](https://github.com/go-yaml/yaml/blob/v3.0.1/LICENSE))
 
-[github/github-mcp-server]: https://github.com/github/github-mcp-server
+[github/github-mcp-server]: https://github.com/takebox/github-mcp-server
