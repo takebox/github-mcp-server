@@ -93,29 +93,6 @@ Optionally, you can add a similar example (i.e. without the mcp key) to a file c
 
 More about using MCP server tools in VS Code's [agent mode documentation](https://code.visualstudio.com/docs/copilot/chat/mcp-servers).
 
-### Usage with Claude Desktop
-
-```json
-{
-  "mcpServers": {
-    "github": {
-      "command": "docker",
-      "args": [
-        "run",
-        "-i",
-        "--rm",
-        "-e",
-        "GITHUB_PERSONAL_ACCESS_TOKEN",
-        "ghcr.io/github/github-mcp-server"
-      ],
-      "env": {
-        "GITHUB_PERSONAL_ACCESS_TOKEN": "<YOUR_TOKEN>"
-      }
-    }
-  }
-}
-```
-
 ### Build from source
 
 If you don't have Docker, you can use `go build` to build the binary in the
